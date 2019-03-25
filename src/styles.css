@@ -1,3 +1,36 @@
 h1 {
-    color:red;
+    color:black;
 }
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border-width: 2;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .btn-group button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .btn-group button.active {
+    background-color: #ccc;
+  }
+
+ div {
+     font-family: 'Franklin Gothic Medium';
+ }
